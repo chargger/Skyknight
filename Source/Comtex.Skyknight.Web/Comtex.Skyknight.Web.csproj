@@ -143,11 +143,11 @@
       <Project>{25703BD2-9DD6-493A-8486-3F3DABD87BEE}</Project>
       <Name>Comtex.Skyknight.Query</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Comtex.Skyknight.Stub.Domain\Comtex.Skyknight.Stub.Domain.csproj">
+    <ProjectReference Include="..\Stub\Comtex.Skyknight.Stub.Domain\Comtex.Skyknight.Stub.Domain.csproj">
       <Project>{D379AD7A-9503-457C-A993-E2E6D1C6D84A}</Project>
       <Name>Comtex.Skyknight.Stub.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Comtex.Skyknight.Stub.Query\Comtex.Skyknight.Stub.Query.csproj">
+    <ProjectReference Include="..\Stub\Comtex.Skyknight.Stub.Query\Comtex.Skyknight.Stub.Query.csproj">
       <Project>{7FF8677A-5F82-4860-AB65-A9821571A918}</Project>
       <Name>Comtex.Skyknight.Stub.Query</Name>
     </ProjectReference>
