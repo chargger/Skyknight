@@ -1,0 +1,4 @@
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\仕様書\bin\Debug\仕様書.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\仕様書\bin\Debug\仕様書.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\仕様書\obj\Debug\仕様書.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\仕様書\obj\Debug\仕様書.pdb

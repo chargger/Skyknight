@@ -1,0 +1,4 @@
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Domain\bin\Debug\Comtex.Skyknight.Stub.Domain.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Domain\bin\Debug\Comtex.Skyknight.Stub.Domain.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Domain\obj\Debug\Comtex.Skyknight.Stub.Domain.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Domain\obj\Debug\Comtex.Skyknight.Stub.Domain.pdb

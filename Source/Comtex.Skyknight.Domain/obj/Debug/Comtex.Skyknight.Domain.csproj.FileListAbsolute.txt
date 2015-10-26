@@ -1,0 +1,7 @@
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\bin\Debug\Comtex.Skyknight.Domain.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\bin\Debug\Comtex.Skyknight.Domain.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\bin\Debug\Comtex.Skyknight.Core.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\bin\Debug\Comtex.Skyknight.Core.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\obj\Debug\Comtex.Skyknight.Domain.csprojResolveAssemblyReference.cache
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\obj\Debug\Comtex.Skyknight.Domain.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Comtex.Skyknight.Domain\obj\Debug\Comtex.Skyknight.Domain.pdb

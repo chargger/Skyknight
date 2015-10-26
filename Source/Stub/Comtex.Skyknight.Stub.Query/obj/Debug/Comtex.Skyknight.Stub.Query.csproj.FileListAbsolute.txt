@@ -1,0 +1,4 @@
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Query\bin\Debug\Comtex.Skyknight.Stub.Query.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Query\bin\Debug\Comtex.Skyknight.Stub.Query.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Query\obj\Debug\Comtex.Skyknight.Stub.Query.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Stub\Comtex.Skyknight.Stub.Query\obj\Debug\Comtex.Skyknight.Stub.Query.pdb
