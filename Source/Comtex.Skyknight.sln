@@ -1,7 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Web", "Comtex.Skyknight.Web\Comtex.Skyknight.Web.csproj", "{ABAC024A-F626-4413-A135-EAB705F0995E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Web", "Comtex.Skyknight.Web\Comtex.Skyknight.Web.csproj", "{29729BE2-C63F-450E-B39B-263DB744D8DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Query", "Comtex.Skyknight.Query\Comtex.Skyknight.Query.csproj", "{25703BD2-9DD6-493A-8486-3F3DABD87BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{22E2A280-12FF-49A3-85FF-04696BF5C11C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Test.Web.Browser", "Comtex.Skyknight.Test.Web.Browser\Comtex.Skyknight.Test.Web.Browser.csproj", "{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Test.Query", "Comtex.Skyknight.Test.Query\Comtex.Skyknight.Test.Query.csproj", "{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Core", "Comtex.Skyknight.Core\Comtex.Skyknight.Core.csproj", "{016BE66E-20B4-4C32-B825-22CC269D982F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Domain", "Comtex.Skyknight.Domain\Comtex.Skyknight.Domain.csproj", "{3E12FE49-F327-48F2-9D22-0E3116DCDA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Test.Domain", "Comtex.Skyknight.Test.Domain\Comtex.Skyknight.Test.Domain.csproj", "{E7805C3B-2B0C-4144-8610-3519495BF60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Test.Web", "Comtex.Skyknight.Test.Web\Comtex.Skyknight.Test.Web.csproj", "{257EFA14-F870-481F-B81A-C58CF82A9548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Test.Core", "Comtex.Skyknight.Test.Core\Comtex.Skyknight.Test.Core.csproj", "{32DDF225-9267-45AC-A21F-92144955F5D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A2466DFD-37DD-49CC-8993-CCE0BA227F6C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stub", "Stub", "{D8D7A252-0E99-45D8-B140-C3458F995643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Stub.Query", "Comtex.Skyknight.Stub.Query\Comtex.Skyknight.Stub.Query.csproj", "{7FF8677A-5F82-4860-AB65-A9821571A918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comtex.Skyknight.Stub.Domain", "Comtex.Skyknight.Stub.Domain\Comtex.Skyknight.Stub.Domain.csproj", "{D379AD7A-9503-457C-A993-E2E6D1C6D84A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +40,61 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABAC024A-F626-4413-A135-EAB705F0995E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABAC024A-F626-4413-A135-EAB705F0995E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABAC024A-F626-4413-A135-EAB705F0995E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABAC024A-F626-4413-A135-EAB705F0995E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29729BE2-C63F-450E-B39B-263DB744D8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29729BE2-C63F-450E-B39B-263DB744D8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29729BE2-C63F-450E-B39B-263DB744D8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29729BE2-C63F-450E-B39B-263DB744D8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25703BD2-9DD6-493A-8486-3F3DABD87BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25703BD2-9DD6-493A-8486-3F3DABD87BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25703BD2-9DD6-493A-8486-3F3DABD87BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25703BD2-9DD6-493A-8486-3F3DABD87BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016BE66E-20B4-4C32-B825-22CC269D982F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016BE66E-20B4-4C32-B825-22CC269D982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016BE66E-20B4-4C32-B825-22CC269D982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016BE66E-20B4-4C32-B825-22CC269D982F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E12FE49-F327-48F2-9D22-0E3116DCDA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E12FE49-F327-48F2-9D22-0E3116DCDA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E12FE49-F327-48F2-9D22-0E3116DCDA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E12FE49-F327-48F2-9D22-0E3116DCDA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7805C3B-2B0C-4144-8610-3519495BF60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7805C3B-2B0C-4144-8610-3519495BF60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7805C3B-2B0C-4144-8610-3519495BF60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7805C3B-2B0C-4144-8610-3519495BF60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257EFA14-F870-481F-B81A-C58CF82A9548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257EFA14-F870-481F-B81A-C58CF82A9548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257EFA14-F870-481F-B81A-C58CF82A9548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257EFA14-F870-481F-B81A-C58CF82A9548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DDF225-9267-45AC-A21F-92144955F5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DDF225-9267-45AC-A21F-92144955F5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DDF225-9267-45AC-A21F-92144955F5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DDF225-9267-45AC-A21F-92144955F5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF8677A-5F82-4860-AB65-A9821571A918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF8677A-5F82-4860-AB65-A9821571A918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF8677A-5F82-4860-AB65-A9821571A918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF8677A-5F82-4860-AB65-A9821571A918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D379AD7A-9503-457C-A993-E2E6D1C6D84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D379AD7A-9503-457C-A993-E2E6D1C6D84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D379AD7A-9503-457C-A993-E2E6D1C6D84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D379AD7A-9503-457C-A993-E2E6D1C6D84A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA} = {22E2A280-12FF-49A3-85FF-04696BF5C11C}
+		{4D6C54AF-8E03-4763-9E07-AF613F5F0EA4} = {22E2A280-12FF-49A3-85FF-04696BF5C11C}
+		{E7805C3B-2B0C-4144-8610-3519495BF60F} = {22E2A280-12FF-49A3-85FF-04696BF5C11C}
+		{257EFA14-F870-481F-B81A-C58CF82A9548} = {22E2A280-12FF-49A3-85FF-04696BF5C11C}
+		{32DDF225-9267-45AC-A21F-92144955F5D7} = {22E2A280-12FF-49A3-85FF-04696BF5C11C}
+		{7FF8677A-5F82-4860-AB65-A9821571A918} = {D8D7A252-0E99-45D8-B140-C3458F995643}
+		{D379AD7A-9503-457C-A993-E2E6D1C6D84A} = {D8D7A252-0E99-45D8-B140-C3458F995643}
 	EndGlobalSection
 EndGlobal

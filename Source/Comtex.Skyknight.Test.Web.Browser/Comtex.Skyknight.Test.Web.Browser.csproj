@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{25703BD2-9DD6-493A-8486-3F3DABD87BEE}</ProjectGuid>
+    <ProjectGuid>{02FD73CA-DB6E-4A8A-8602-83ABA6B684EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Comtex.Skyknight.Query</RootNamespace>
-    <AssemblyName>Comtex.Skyknight.Query</AssemblyName>
+    <RootNamespace>Comtex.Skyknight.Test.Web.Browser</RootNamespace>
+    <AssemblyName>Comtex.Skyknight.Test.Web.Browser</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Comtex.Skyknight.Core\Comtex.Skyknight.Core.csproj">
-      <Project>{016BE66E-20B4-4C32-B825-22CC269D982F}</Project>
-      <Name>Comtex.Skyknight.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

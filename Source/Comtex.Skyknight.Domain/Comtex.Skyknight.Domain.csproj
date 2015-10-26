@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{25703BD2-9DD6-493A-8486-3F3DABD87BEE}</ProjectGuid>
+    <ProjectGuid>{3E12FE49-F327-48F2-9D22-0E3116DCDA56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Comtex.Skyknight.Query</RootNamespace>
-    <AssemblyName>Comtex.Skyknight.Query</AssemblyName>
+    <RootNamespace>Comtex.Skyknight.Domain</RootNamespace>
+    <AssemblyName>Comtex.Skyknight.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -16,6 +16,8 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -128,6 +130,28 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Comtex.Skyknight.Core\Comtex.Skyknight.Core.csproj">
+      <Project>{016BE66E-20B4-4C32-B825-22CC269D982F}</Project>
+      <Name>Comtex.Skyknight.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comtex.Skyknight.Domain\Comtex.Skyknight.Domain.csproj">
+      <Project>{3E12FE49-F327-48F2-9D22-0E3116DCDA56}</Project>
+      <Name>Comtex.Skyknight.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comtex.Skyknight.Query\Comtex.Skyknight.Query.csproj">
+      <Project>{25703BD2-9DD6-493A-8486-3F3DABD87BEE}</Project>
+      <Name>Comtex.Skyknight.Query</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comtex.Skyknight.Stub.Domain\Comtex.Skyknight.Stub.Domain.csproj">
+      <Project>{D379AD7A-9503-457C-A993-E2E6D1C6D84A}</Project>
+      <Name>Comtex.Skyknight.Stub.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comtex.Skyknight.Stub.Query\Comtex.Skyknight.Stub.Query.csproj">
+      <Project>{7FF8677A-5F82-4860-AB65-A9821571A918}</Project>
+      <Name>Comtex.Skyknight.Stub.Query</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -144,7 +168,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>53202</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
@@ -157,6 +181,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
