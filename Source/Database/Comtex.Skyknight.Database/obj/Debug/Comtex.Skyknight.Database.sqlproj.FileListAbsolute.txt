@@ -1,9 +1,9 @@
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\bin\Debug\Comtex.Skyknight.Database.dacpac
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\bin\Debug\Comtex.Skyknight.Database.dll
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\bin\Debug\Comtex.Skyknight.Database.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\Comtex.Skyknight.Database.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\Comtex.Skyknight.Database.pdb
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\Model.xml
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\refactor.xml
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\postdeploy.sql
 C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\predeploy.sql
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\Comtex.Skyknight.Database.dll
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\Comtex.Skyknight.Database\obj\Debug\Comtex.Skyknight.Database.pdb
