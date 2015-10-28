@@ -1,4 +1,0 @@
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Test\Comtex.Skyknight.Test.Domain\bin\Debug\Comtex.Skyknight.Test.Domain.dll
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Test\Comtex.Skyknight.Test.Domain\bin\Debug\Comtex.Skyknight.Test.Domain.pdb
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Test\Comtex.Skyknight.Test.Domain\obj\Debug\Comtex.Skyknight.Test.Domain.dll
-C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Test\Comtex.Skyknight.Test.Domain\obj\Debug\Comtex.Skyknight.Test.Domain.pdb
