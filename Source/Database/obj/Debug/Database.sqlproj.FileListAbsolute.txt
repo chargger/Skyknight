@@ -1,0 +1,5 @@
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\bin\Debug\Database.dacpac
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\bin\Debug\Database.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\bin\Debug\Database.pdb
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\obj\Debug\Database.dll
+C:\Users\t_shinmori\Documents\Github\Skyknight\Source\Database\obj\Debug\Database.pdb
